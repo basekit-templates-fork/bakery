@@ -145,7 +145,7 @@
             "font-size": "30px",
             "font-weight": "400",
             "line-height": "inherit",
-            "color": "@color-swatch4",
+            "color": "@color-swatch3",
             "letter-spacing": "3px"
         }
     },
@@ -211,7 +211,7 @@
             "color__header--background": "#ffffff"
         },
         "footer": {
-            "color__footer--background": "@color__primary"
+            "color__footer--background": "@color-swatch3"
         },
         "navigation": {
             "color__navigation--text": "@font-swatch6-color",
