@@ -1,7 +1,7 @@
 {
-    "name":"Skater",
-    "thumbnail":"skater.png",
-    "screenshot":"skater-screenshot.jpg",
+    "name":"Bakery",
+    "thumbnail":"bakery.png",
+    "screenshot":"bakery-screenshot.jpg",
     "pageTypes":["home"],
     "templateType":"standard",
     "widgetVersion":2,
@@ -18,11 +18,11 @@
         "Swatch 1": {
             "color1":"#ffffff",
             "color2":"#d40707",
-            "color3":"#d40707",
-            "color4":"#000000",
-            "color5":"#2b3040",
+            "color3":"#ff6276",
+            "color4":"#d40707",
+            "color5":"#888888",
             "color6":"#FFFFFF",
-            "color7":"#e6e6e6"
+            "color7":"#f4f4f6"
         },
         "Swatch 2": {
             "color1":"#FFFFFF",
@@ -64,7 +64,7 @@
     "fontSwatch": {
        "title": "Roboto Slab, Georgia, serif",
         "font1": {
-            "font-family": "\"Roboto Slab\", Georgia, serif",
+            "font-family": "\"Arvo\", Georgia, serif",
             "font-size": "26px",
             "font-weight": "300",
             "line-height": "34px",
@@ -72,7 +72,7 @@
             "letter-spacing": "2px"
         },
         "font2": {
-            "font-family": "\"Roboto Slab\", Georgia, serif",
+            "font-family": "\"Arvo\", Georgia, serif",
             "font-size": "24px",
             "font-weight": "300",
             "line-height": "32px",
@@ -80,7 +80,7 @@
             "letter-spacing": "2px"
         },
         "font3": {
-            "font-family": "\"Roboto Slab\", Georgia, serif",
+            "font-family": "\"Arvo\", Georgia, serif",
             "font-size": "22px",
             "font-weight": "300",
             "line-height": "30px",
@@ -88,7 +88,7 @@
             "letter-spacing": "2px"
         },
         "font4": {
-            "font-family": "\"Roboto Slab\", Georgia, serif",
+            "font-family": "\"Arvo\", Georgia, serif",
             "font-size": "18px",
             "font-weight": "300",
             "line-height": "26px",
@@ -96,21 +96,21 @@
             "letter-spacing": "inherit"
         },
         "font5": {
-            "font-family": "\"Roboto Slab\", Georgia, serif",
-            "font-size": "15px",
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "16px",
             "font-weight": "300",
             "line-height": "28px",
-            "color": "@color-swatch4",
+            "color": "@color-swatch5",
             "letter-spacing": "inherit"
         },
         "font6": {
             "font-family": "\"Roboto Slab\", Georgia, serif",
-            "font-size": "14px",
+            "font-size": "16px",
             "font-weight": "400",
             "line-height": "inherit",
-            "color": "@color-swatch4",
-            "color-hover": "@color-swatch4",
-            "letter-spacing": "2px",
+            "color": "@color-swatch5",
+            "color-hover": "@color-swatch3",
+            "letter-spacing": "0px",
             "background-color": "@color-swatch1",
             "background-color-hover": "@color-swatch1"
          },
@@ -125,20 +125,20 @@
             "background-color-hover": "@color-swatch3"
         },
         "font8": {
-            "font-family": "\"Roboto Slab\", Georgia, serif",
-            "font-size": "20px",
+            "font-family": "\"Arvo\", Georgia, serif",
+            "font-size": "38px",
             "font-weight": "300",
-            "line-height": "28px",
+            "line-height": "48px",
             "color": "@color-swatch4",
-            "letter-spacing": "3px"
+            "letter-spacing": "0px"
         },
         "font9": {
-            "font-family": "\"Roboto Slab\", Georgia, serif",
-            "font-size": "14px",
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "16px",
             "font-weight": "300",
-            "line-height": "22px",
-            "color": "@color-swatch4",
-            "letter-spacing": "3px"
+            "line-height": "28px",
+            "color": "@color-swatch5",
+            "letter-spacing": "0px"
         },
         "font10": {
             "font-family": "\"Roboto Slab\", Georgia, serif",
@@ -197,8 +197,8 @@
             "font__p--letter-spacing" : "@font-swatch5-letter-spacing"
         },
         "button": {
-            "color__button--background": "@color__primary",
-            "color__button--background--hover": "@color__secondary",
+            "color__button--background": "@color-swatch3",
+            "color__button--background--hover": "darken(@color-swatch3,5%)",
             "color__button--text": "@font-swatch7-color",
             "color__button--text--hover": "@font-swatch7-color",
             "font__button--font-family" : "@font-swatch7-font-family",
@@ -208,7 +208,7 @@
             "font__button--letter-spacing" : "@font-swatch7-letter-spacing"      
         },
         "header": {
-            "color__header--background": "@color__primary"
+            "color__header--background": "#ffffff"
         },
         "footer": {
             "color__footer--background": "@color__primary"
