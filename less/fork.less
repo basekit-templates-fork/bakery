@@ -495,7 +495,7 @@
 
 
 // ------------------------------
-// Responsive Slideshow
+// Homepage Responsive Slideshow
 // ------------------------------
 
 .widget__responsiveslideshow {
@@ -508,20 +508,43 @@
     }
 }
 
-
-// Slideshow Height
-.responsiveslideshow__figure,
-.responsiveslideshow__slides-list {
-    padding-bottom: 30%;
-
-    @media @tablet {
-        padding-bottom: @value__slideshow--height--tablet;
-    }
-    @media @mobile {
-        padding-bottom: @value__slideshow--height--mobile;
+.template-content {
+    .responsiveslideshow__figure,
+    .responsiveslideshow__slides-list {
+        padding-bottom: 40%;
     }
 }
 
+// Slideshow Height
+.homepage-slideshow {
+    .responsiveslideshow__figure, .responsiveslideshow__slides-list {
+        padding-bottom: 30%;
+    }
+}
+
+.responsiveslideshow .contain .figure {
+    height: 100%;
+}
+
+.homepage-slideshow {
+    .responsiveslideshow__image-title {
+        font-size: @font-swatch1-font-size;
+        line-height: @font-swatch1-line-height;
+        color: @font-swatch1-color;
+    }
+}
+
+.homepage-slideshow {
+    .slide-navigation {
+        @media @tablet {
+            top: 37%;
+        }
+
+        @media @mobile {
+            top: 27%;
+        }
+    }
+}
 
 
 
@@ -587,9 +610,12 @@
     min-height: 50px;
     margin: 0;
 
+    @media @tablet {
+        top: 37%;
+    }
+
     @media @mobile {
-        top: inherit;
-        bottom: 0;
+        top: 32%;
     }
 
 
@@ -702,8 +728,9 @@
 .responsiveslideshow__pause-toggle {
     top: 0;
     bottom: 0;
-    right: 86%;
+    right: 100%;
     margin: auto;
+    margin-left: 40px;
 
     @media @mobile {
         display: none;
@@ -743,7 +770,7 @@
     height: 100%;
     margin: 0;
     padding: 30px;
-    background-color: fade(@color__slideshow-caption--background, 100%);
+    background-color: fade(@color__slideshow-caption--background, 10%);
     text-align: center;
     display: flex;
 
@@ -756,14 +783,9 @@
         bottom: 0;
         right: 0;
         padding: 5px 20px 5px;
+        display: none;
     }
 
-}
-
-.responsiveslideshow__image-title {
-    font-size: @font-swatch1-font-size;
-    line-height: @font-swatch1-line-height;
-    color: @font-swatch1-color;
 }
 
 
