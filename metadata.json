@@ -6,12 +6,12 @@
     "templateType":"standard",
     "widgetVersion":2,
     "images":[
+        "images/image-1.jpg",
         "images/slideshow/slideshow-1.jpg",
         "images/slideshow/slideshow-2.jpg",
         "images/slideshow/slideshow-3.jpg",
         "images/logo.jpg",
-        "images/feature-img1.jpg",
-        "images/feature-img2.jpg"
+        "images/feature-img1.jpg"
     ],
     "colorSwatches":
     {
