@@ -4,18 +4,16 @@
 
 {% include "includes/header.twig" %}
 
-<div class="fixed-header-wrap">
-    <div class="fixed-header">
-        <div class="logo-header container">
-            <div class="logo-companyname">
-                    <span class="resize-logo">{{widget('logo', 'sitelogo', {"defaultlogo": asset('images/logo.jpg')})|raw}}</span>
-                    {{widget('companyname', 'companyname', {"business": "profile"})|raw}}
-                <div class="header-extendednavigation">
-                    {{widget('extendednavigation', 'extendednavigation', {})|raw}}
-                </div>
-            </div>
+<div class="logo-header">
+    <div class="logo-container container">
+        <div class="header-logo">
+            {{widget('logo', 'logo', {"defaultlogo": asset('images/logo.png')})|raw}}
         </div>
-        <div class="header-line">
+        <div class="header-companyname">
+            {{widget('companyname', 'companyname', {"business": "profile"})|raw}}
+        </div>
+        <div class="header-extendednavigation">
+            {{widget('extendednavigation', 'extendednavigation', {"align":"right"})|raw}}
         </div>
     </div>
 </div>
